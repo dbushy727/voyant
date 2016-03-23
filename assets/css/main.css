@@ -3806,3 +3806,9 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+
+/* Custom */
+.mission-image img, .story-image img {
+	max-width: 180px;
+}
