@@ -3711,7 +3711,7 @@
 					color: #fff;
 				}
 
-		#footer .copyright {
+		#footer .copyright, #footer .phone {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			letter-spacing: 0.225em;
@@ -3720,7 +3720,7 @@
 			text-transform: uppercase;
 		}
 
-			#footer .copyright li {
+			#footer .copyright li, #footer .phone li {
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				display: inline-block;
 				line-height: 1em;
@@ -3728,7 +3728,7 @@
 				padding-left: 1em;
 			}
 
-				#footer .copyright li:first-child {
+				#footer .copyright li:first-child, #footer .phone li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
@@ -3744,7 +3744,7 @@
 
 				@media screen and (max-width: 480px) {
 
-					#footer .copyright li {
+					#footer .copyright li, #footer .phone li {
 						border: 0;
 						display: block;
 						line-height: 1.65em;
@@ -3812,3 +3812,4 @@
 .mission-image img, .story-image img {
 	max-width: 180px;
 }
+
